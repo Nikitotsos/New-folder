@@ -11,11 +11,11 @@ class Dog:
     
     def eat(self):
         self.is_hungry = False
-        print(f"{self.name} поїла.")
+        print(f"{self.name} поїла і тепер не голодна.")
     
     def sleep(self):
         self.is_sleepy = False
-        print(f"{self.name} спить.")
+        print(f"{self.name} спить, відпочиваючи.")
     
     def play(self):
         if self.is_hungry:
